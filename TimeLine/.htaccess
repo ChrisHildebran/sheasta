@@ -1,0 +1,18 @@
+
+# BEGIN DS-XML-RPC-FIX-HOTLINK
+# The directives (lines) between "BEGIN DS-XML-RPC-FIX-HOTLINK" and "END DS-XML-RPC-FIX-HOTLINK" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://sheasta.com/TimeLine [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?google.com [NC]
+RewriteRule \.(jpg|jpeg|png|gif)$ – [NC,F,L] 
+# END DS-XML-RPC-FIX-HOTLINK
+# BEGIN DS-XML-RPC-API
+# The directives (lines) between "BEGIN DS-XML-RPC-API" and "END DS-XML-RPC-API" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+
+# END DS-XML-RPC-API
